@@ -1,49 +1,32 @@
-body{
-  background: #e7e7e7;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 2em;
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.9em;
+  line-height: 2;
 }
 
-h1 {
-  font-size: 2.5em;
+#site-header {
+  background-image: url("../imgs/logo.png");
+  background-position: left top;
+  background-repeat: no-repeat;
 }
 
-.slider {
-  margin-top: 120px;
-  position: fixed;
-  z-index: 1;
+#site-title {
+  font-family: "Amiri";
+  padding-bottom: 33px;
+  padding-top: 29px;
+  margin-left: 100px;
 }
 
-#header {
-  margin-top: 222px;
-  height: 100vh  
+.heading {
+  font-family: 'Lobster', cursive;
 }
 
-#header > h1 {
-  font-family: "Ubuntu Condensed";
-  color: #00ABEC;
-  font-size: 5em;
-  font-weight: bold;
+#social-block > p > a > i {
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 28px;
 }
 
-#logo {
-  border: 11px solid white;
-  border-radius: 2%;
-}
-
-#social li > a{
-  color: #0DAEEB;
-  margin-left: -22px;
-}
-
-@media (max-width: 991px) {
-  #header {
-    margin-top: 120px;
-    height: 100vh  
-  }
-  #logo {
-    display: none;
-    border: none;
-  }
-  .slider > p {display: none}
+@media (max-width: 600px) {
+  
 }
