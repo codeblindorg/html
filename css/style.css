@@ -11,20 +11,27 @@ body {
 }
 
 #site-title {
-  font-family: "Amiri";
   padding-bottom: 33px;
-  padding-top: 29px;
+  padding-top: 22px;
   margin-left: 100px;
 }
 
 .heading {
-  font-family: 'Lobster', cursive;
+  font-family: 'Ubuntu', cursive;
 }
 
 #social-block > p > a > i {
   padding-left: 12px;
   padding-right: 12px;
   font-size: 28px;
+}
+
+.full {
+    background: url('../imgs/fb-codeblind.png') no-repeat center center fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
 }
 
 @media (max-width: 600px) {
