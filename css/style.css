@@ -1,7 +1,8 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.9em;
   line-height: 2;
+  background: #DEDEDE !important;
 }
 
 #site-header {
@@ -11,13 +12,15 @@ body {
 }
 
 #site-title {
+  font-family: 'Proza Libre', sans-serif;
   padding-bottom: 33px;
   padding-top: 22px;
   margin-left: 100px;
 }
 
 .heading {
-  font-family: 'Ubuntu', cursive;
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: 700;
 }
 
 #social-block > p > a > i {

@@ -77,9 +77,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Amiri:700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Proza+Libre:400,700|Lato" rel="stylesheet">
 
 
     <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -94,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   	<div class="container-fluid">
   	  <div class="row">
   	    <div class="col-xs-12 col-lg-8 col-lg-offset-2"  id="site-header">
-  	      <h1 id="site-title">&radic;<span style="text-decoration:overline;">&nbsp;Contact Form&nbsp;</span></h1>
+  	      <h1 id="site-title">&radic;<span style="text-decoration:overline;">&nbsp;Contact</span></h1>
   	    </div>
   	  </div>
   	</div>
@@ -109,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   		<div class="row">
 
   			<div class="col-md-7 col-md-offset-2 col-md-push-1 col-lg-7 col-lg-offset-2 col-lg-push-1">
-  			  <h1 class="heading text-center">Contact Me</h1>
+
 
           <?php if(!empty($emailSent)): ?>
               <div class="col-md-6 col-md-offset-3">
@@ -169,7 +168,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   			<div class="col-lg-3 col-lg-pull-8" style="padding-bottom: 50px">
   			  <div>
-  			    <h2 class="heading">Resources</h2>
+  			    <h2 class="heading">Links</h2>
             <ul class="list-unstyled" style="padding-left: 20px;">
   				    <li>
   				      <a href="https://hippybear.github.io/about/" target="_blank">
@@ -220,6 +219,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               $('[data-toggle="tooltip"]').tooltip();
             });
           </script>
+          <div><h2 class="heading">Resources</h2></div>
   				<div class="thumbnail">
   				  <img src="//s3.amazonaws.com/freecodecamp/camper-image-placeholder.png" />
   				  <div class="caption">
