@@ -42,13 +42,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="https://gitter.im/fonyedjs/lobby" target="_blank">Chat</a>
-                    </li>
-                    <li>
                         <a href="portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a href="portfolio.html">Contact</a>
+                        <a href="contact/contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -59,7 +56,12 @@
 
 
   	<div class="container text-center full"></div>
-
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'fonyedjs/lobby'
+      };
+    </script>
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
   </body>
 
 </html>
